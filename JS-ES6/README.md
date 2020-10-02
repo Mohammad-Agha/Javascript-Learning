@@ -1,4 +1,4 @@
-# ES5 & ES6 Changes
+# ES6 Changes
 
 Make sure you open your console in your developers tool of your browser.
 
