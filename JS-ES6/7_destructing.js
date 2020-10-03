@@ -6,17 +6,18 @@ const person1 = {
 };
 
 // const fname = person1.firstname;
-// const lname = person1.lname;
+// const lname = person1.lastname;
 // const age = person1.age;
+// console.log(fname, lname, age);
 
 // ES6
 
-const { firstname, lastname, age } = person1;
-console.log(firstname, lastname, age);
+// const { firstname, lastname, age } = person1;
+// console.log(firstname, lastname, age);
 
 // to customize the naming of the variable
 const { firstname: fname, lastname: lname, age: personAge } = person1;
-console.log(firstname, lastname, personAge);
+console.log(fname, lname, personAge);
 
 // For nested objects
 
@@ -44,7 +45,7 @@ console.log(a, b);
 const [, , , c, d] = arr;
 console.log(c, d);
 
-const [, e, , f,] = arr;
+const [, e, , f] = arr;
 console.log(e, f);
 
 // If we want to swap two numbers
