@@ -1,0 +1,5 @@
+# Asynchronous Javascript
+
+Asynchronous is when something is going on but you don't want to wait until that thing is done to continue your program, you want to continue while it's happening so it's happening asynchronously. It's very relevant to javascript because we are often making a request to servers elsewhere and this can take some time to get the data back, and you might not want your program to stall and wait for this data to come, you want to keep going and doing something else, here where callback come in. Callbacks were used in js for a long time until ES6 was released where promises were introduced which gives a more elegant way to handle asynchronous data and then async/await was introduced in ES7 which still deals with promises but in a different way. It looks more like synchronous code rather than using .then .
+
+On the other hand, synchronous is when something happens and you wait completely until it's finished before you move to the next 
