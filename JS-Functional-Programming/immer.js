@@ -1,5 +1,4 @@
 const { produce } = require('immer')
-const { update } = require('lodash')
 
 let person = { name: "Mohammad", age: 21 }
 
