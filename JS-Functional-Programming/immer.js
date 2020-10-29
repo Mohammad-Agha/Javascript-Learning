@@ -2,12 +2,12 @@ const { produce } = require('immer')
 
 let person = { name: "Mohammad", age: 21 }
 
+// here we are mutating the person object
 const eligible = person => {
   person.isEligible = true
   return person
 }
 
- // here we are mutating the person object
 
 const betterEligible = person => {
   return produce(person, draftPerson => {
